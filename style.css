@@ -1,0 +1,81 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+html{
+
+    height: 100%;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header > div{
+
+    width: 33%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+body > div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+}
+
+#seq{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#seq > input{
+
+    width: 55px;
+    margin: 5px 1px;
+}
+
+#seqModifiers input{
+
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#TG{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TG > input[type=number]{
+
+    width: 70px;
+}
+
+#TG > input{
+    
+    margin: 5px 0;
+}
+
+#resultado{
+
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer{
+
+    position: absolute;
+    bottom: 10px;
+}
